@@ -1,0 +1,67 @@
+/* src/components/ProyectoCard.css */
+.proyecto-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px; /* Ajusta según sea necesario */
+    background-color: #fff;
+}
+
+.proyecto-imagen {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.proyecto-contenido h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.proyecto-contenido p {
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.proyecto-contenido h4 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.proyecto-contenido ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.proyecto-contenido ul li {
+    background-color: #eef;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    color: #444;
+}
+
+.boton-repositorio {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.boton-repositorio:hover {
+    background-color: #0056b3;
+}

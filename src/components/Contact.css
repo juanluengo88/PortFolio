@@ -1,0 +1,120 @@
+/* src/components/Contact.css */
+.contact-section {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.8em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.contact-intro {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column; /* Apila los elementos por defecto en móvil */
+    gap: 20px; /* Espacio entre los ítems de contacto */
+    align-items: flex-start; /* Alinea los ítems a la izquierda */
+    padding: 0 20px; /* Pequeño padding interno */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre el ícono y el texto */
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact-item i {
+    color: #007bff; /* Color para los íconos */
+    font-size: 1.5em;
+    width: 30px; /* Ancho fijo para alinear los íconos */
+    text-align: center;
+}
+
+.contact-label {
+    font-weight: bold;
+    color: #2c3e50;
+    min-width: 120px; /* Asegura un ancho mínimo para la etiqueta */
+    text-align: right; /* Alinea la etiqueta a la derecha para empujar el valor */
+}
+
+.contact-value {
+    color: #007bff; /* Color para los enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-value:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.linkedin-link {
+    color: #0077B5; /* Color específico de LinkedIn */
+}
+
+.linkedin-link:hover {
+    color: #00568c;
+}
+
+/* Media Queries para diseño responsivo */
+@media (min-width: 768px) {
+    .contact-details {
+        align-items: center; /* Centra los elementos horizontalmente en desktop */
+        padding: 0; /* Elimina el padding si no es necesario */
+    }
+
+    .contact-item {
+        justify-content: center; /* Centra el contenido dentro del ítem */
+        width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    }
+
+    .contact-label {
+        min-width: 150px; /* Ajusta el ancho de la etiqueta para desktop */
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    .contact-section h2 {
+        font-size: 2em;
+    }
+
+    .contact-intro {
+        font-size: 1em;
+    }
+
+    .contact-item {
+        flex-direction: column; /* Apila el ícono, la etiqueta y el valor */
+        align-items: center; /* Centra los elementos apilados */
+        gap: 5px; /* Menos espacio entre los elementos apilados */
+        text-align: center;
+    }
+
+    .contact-item i {
+        font-size: 1.8em; /* Íconos un poco más grandes en móvil para destacar */
+    }
+
+    .contact-label {
+        min-width: auto; /* Elimina el ancho mínimo en móvil */
+        text-align: center; /* Centra la etiqueta */
+    }
+}
