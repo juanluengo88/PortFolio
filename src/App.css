@@ -40,7 +40,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to bottom, #1A2A3A, #2C3E50, #627D98);
   min-height: 100vh;
   color: #fff;
 }

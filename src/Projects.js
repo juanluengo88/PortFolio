@@ -1,7 +1,8 @@
-const So = "/SO.jpeg"
-const Compilador = "/2016-03-30-compiladores-interpretes-img1.jpg"
-const Birbnb = "/Birbnb.png"
-const Notas = "/notas.png"
+import Birbnb from "./assets/images/birbnb.png"
+import So from "./assets/images/SO.jpeg"
+import Compilador from "./assets/images/compilador.jpg"
+import Notas from "./assets/images/notas.jpg"
+
 const proyectos = [
     {
         id: 1,

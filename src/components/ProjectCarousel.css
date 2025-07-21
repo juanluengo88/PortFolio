@@ -14,6 +14,7 @@
     min-height: 450px; /* Puedes establecer una altura mínima para que las tarjetas se vean uniformes */
     max-width: 350px; /* Ajusta este ancho para que se vean 3 por fila en el carrusel */
     margin: 0 auto; /* Centra la tarjeta si el ancho es menor que el contenedor */
+    flex-wrap: wrap;
 }
 
 

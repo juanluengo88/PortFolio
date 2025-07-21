@@ -21,12 +21,10 @@ function ProyectosCarousel() {
                 showStatus={false}
                 centerMode={true}
                 centerSlidePercentage={centerSlidePercentage}
-                emulateTouch={true}
+                emulateTouch={false}
                 autoPlay={true}
-                interval={5000}
+                interval={10000}
                 transitionTime={500}
-                // Agrega un padding izquierdo y derecho a los slides para crear espacio entre las tarjetas
-                // Esto es crucial para que `centerMode` y `centerSlidePercentage` funcionen bien
                 className="carousel-with-padding"
             >
                 {proyectos.map((proyecto) => (
